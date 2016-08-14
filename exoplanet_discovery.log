@@ -1,0 +1,1457 @@
+
+650 Data Points
+
+Exoplanets data read successfully!
+
+Total number of exoplanets: 574
+Number of features: 36
+Number of confirmed exoplanets: 329
+Number of false positive exoplanetes: 158
+Number of candidate exoplanetes: 87
+Discovery rate of the data: 57.32%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 365 samples.
+Testing set has 122 samples.
+
+Training a GaussianNB
+Trained model in 0.0012 seconds
+Made predictions in 0.0005 seconds.
+F1 score for training set: 0.7939.
+Made predictions in 0.0003 seconds.
+F1 score for test set: 0.8309.
+
+Training a LogisticRegression
+Trained model in 0.0039 seconds
+Made predictions in 0.0002 seconds.
+F1 score for training set: 0.7917.
+Made predictions in 0.0001 seconds.
+F1 score for test set: 0.8040.
+
+Training a SVC
+Trained model in 0.0068 seconds
+Made predictions in 0.0045 seconds.
+F1 score for training set: 0.9979.
+Made predictions in 0.0016 seconds.
+F1 score for test set: 0.8381.
+Made predictions in 0.0040 seconds.
+
+Tuned model has a training F1 score of 0.7954.
+Made predictions in 0.0014 seconds.
+Tuned model has a testing F1 score of 0.8381.
+
+
+
+
+800 Data Points
+
+
+Exoplanets data read successfully!
+
+Total number of exoplanets: 702
+Number of features: 36
+Number of confirmed exoplanets: 400
+Number of false positive exoplanetes: 196
+Number of candidate exoplanetes: 106
+Number of exoplanetes dropped: 98
+Dropping Rate: 12.25%
+Discovery rate of the data: 56.98%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 447 samples.
+Testing set has 149 samples.
+
+Training a GaussianNB
+Trained model in 0.0014 seconds
+Made predictions in 0.0006 seconds.
+F1 score for training set: 0.7951.
+Made predictions in 0.0003 seconds.
+F1 score for test set: 0.8130.
+
+Training a LogisticRegression
+Trained model in 0.0104 seconds
+Made predictions in 0.0002 seconds.
+F1 score for training set: 0.8082.
+Made predictions in 0.0001 seconds.
+F1 score for test set: 0.8211.
+
+Training a SVC
+Trained model in 0.0102 seconds
+Made predictions in 0.0061 seconds.
+F1 score for training set: 0.9983.
+Made predictions in 0.0023 seconds.
+F1 score for test set: 0.8080.
+Made predictions in 0.0056 seconds.
+
+Tuned model has a training F1 score of 0.8016.
+Made predictions in 0.0018 seconds.
+Tuned model has a testing F1 score of 0.8080.
+Made predictions in 0.0015 seconds.
+Exoplanet k753.01 at index 1 has been Confirmed!
+Exoplanet k754.01 at index 2 has been Confirmed!
+Exoplanet k744.01 at index 15 has been Confirmed!
+Exoplanet k771.01 at index 28 has been Confirmed!
+Exoplanet k772.01 at index 29 has been Confirmed!
+Exoplanet k760.01 at index 36 has been Confirmed!
+Exoplanet k777.01 at index 57 has been Confirmed!
+Exoplanet k780.02 at index 61 has been Confirmed!
+Exoplanet k799.01 at index 71 has been Confirmed!
+Exoplanet k797.01 at index 83 has been Confirmed!
+Exoplanet k802.01 at index 91 has been Confirmed!
+Exoplanet k804.01 at index 93 has been Confirmed!
+Exoplanet k810.01 at index 102 has been Confirmed!
+Exoplanet k815.01 at index 111 has been Confirmed!
+Exoplanet k820.01 at index 117 has been Confirmed!
+Exoplanet k823.01 at index 122 has been Confirmed!
+Exoplanet k833.01 at index 135 has been Confirmed!
+Exoplanet k838.01 at index 147 has been Confirmed!
+Exoplanet k841.03 at index 153 has been Confirmed!
+Exoplanet k868.01 at index 165 has been Confirmed!
+Exoplanet k856.01 at index 171 has been Confirmed!
+Exoplanet k858.01 at index 175 has been Confirmed!
+Exoplanet k865.01 at index 183 has been Confirmed!
+Exoplanet k871.01 at index 194 has been Confirmed!
+Exoplanet k875.01 at index 201 has been Confirmed!
+Exoplanet k892.02 at index 210 has been Confirmed!
+Exoplanet k882.01 at index 214 has been Confirmed!
+Exoplanet k883.01 at index 215 has been Confirmed!
+Exoplanet k901.01 at index 229 has been Confirmed!
+Exoplanet k902.01 at index 230 has been Confirmed!
+Exoplanet k900.01 at index 246 has been Confirmed!
+Exoplanet k914.01 at index 252 has been Confirmed!
+Exoplanet k928.01 at index 268 has been Confirmed!
+Exoplanet k924.01 at index 286 has been Confirmed!
+Exoplanet k927.01 at index 289 has been Confirmed!
+Exoplanet k935.04 at index 303 has been Confirmed!
+Exoplanet k145.01 at index 311 has been Confirmed!
+Exoplanet k1103.01 at index 315 has been Confirmed!
+Exoplanet k1168.01 at index 317 has been Confirmed!
+Exoplanet k1170.01 at index 319 has been Confirmed!
+Exoplanet k1174.01 at index 341 has been Confirmed!
+Exoplanet k1175.02 at index 343 has been Confirmed!
+Exoplanet k1051.01 at index 354 has been Confirmed!
+Exoplanet k151.01 at index 361 has been Confirmed!
+Exoplanet k978.01 at index 368 has been Confirmed!
+Exoplanet k1112.01 at index 379 has been Confirmed!
+Exoplanet k1118.01 at index 403 has been Confirmed!
+Exoplanet k1193.01 at index 405 has been Confirmed!
+Exoplanet k1058.01 at index 416 has been Confirmed!
+Exoplanet k1119.02 at index 421 has been Confirmed!
+Exoplanet k1123.01 at index 425 has been Confirmed!
+Exoplanet k1201.01 at index 429 has been Confirmed!
+Exoplanet k989.03 at index 433 has been Confirmed!
+Exoplanet k1064.01 at index 443 has been Confirmed!
+Exoplanet k1188.01 at index 450 has been Confirmed!
+Exoplanet k1191.01 at index 453 has been Confirmed!
+Exoplanet k1192.01 at index 454 has been Confirmed!
+Exoplanet k994.01 at index 456 has been Confirmed!
+Exoplanet k136.01 at index 460 has been Confirmed!
+Exoplanet k1066.01 at index 462 has been Confirmed!
+Exoplanet k1067.01 at index 463 has been Confirmed!
+Exoplanet k1127.03 at index 467 has been Confirmed!
+Exoplanet k1198.04 at index 477 has been Confirmed!
+Exoplanet k141.01 at index 484 has been Confirmed!
+Exoplanet k1070.03 at index 487 has been Confirmed!
+Exoplanet k1206.01 at index 498 has been Confirmed!
+Exoplanet k1075.01 at index 508 has been Confirmed!
+Exoplanet k1145.01 at index 536 has been Confirmed!
+Exoplanet k944.01 at index 540 has been Confirmed!
+Exoplanet k945.01 at index 541 has been Confirmed!
+Exoplanet k945.02 at index 542 has been Confirmed!
+Exoplanet k1081.01 at index 550 has been Confirmed!
+Exoplanet k1082.01 at index 551 has been Confirmed!
+Exoplanet k1082.02 at index 552 has been Confirmed!
+Exoplanet k950.01 at index 564 has been Confirmed!
+Exoplanet k1085.01 at index 575 has been Confirmed!
+Exoplanet k1154.01 at index 581 has been Confirmed!
+Exoplanet k1089.02 at index 597 has been Confirmed!
+Exoplanet k1159.01 at index 603 has been Confirmed!
+Exoplanet k1029.01 at index 613 has been Confirmed!
+Exoplanet k1030.01 at index 614 has been Confirmed!
+Exoplanet k1095.01 at index 619 has been Confirmed!
+Exoplanet k1096.01 at index 620 has been Confirmed!
+Exoplanet k1032.01 at index 633 has been Confirmed!
+Exoplanet k138.01 at index 638 has been Confirmed!
+Exoplanet k1165.01 at index 646 has been Confirmed!
+Exoplanet k1166.01 at index 648 has been Confirmed!
+Exoplanet k1043.01 at index 660 has been Confirmed!
+Exoplanet k1360.03 at index 663 has been Confirmed!
+Exoplanet k1362.01 at index 665 has been Confirmed!
+Exoplanet k1426.03 at index 667 has been Confirmed!
+Exoplanet k1429.01 at index 670 has been Confirmed!
+Exoplanet k1239.01 at index 672 has been Confirmed!
+Exoplanet k1239.02 at index 673 has been Confirmed!
+Exoplanet k1431.01 at index 691 has been Confirmed!
+Exoplanet k1242.01 at index 693 has been Confirmed!
+Exoplanet k1246.01 at index 713 has been Confirmed!
+Exoplanet k1315.01 at index 741 has been Confirmed!
+Exoplanet k1369.01 at index 746 has been Confirmed!
+Exoplanet k1437.01 at index 753 has been Confirmed!
+Exoplanet k1258.03 at index 760 has been Confirmed!
+Exoplanet k1318.01 at index 762 has been Confirmed!
+Exoplanet k1321.01 at index 765 has been Confirmed!
+Exoplanet k1375.01 at index 767 has been Confirmed!
+Exoplanet k1452.01 at index 777 has been Confirmed!
+Exoplanet k1261.02 at index 781 has been Confirmed!
+
+
+
+950 Data Points
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 130
+Number of confirmed exoplanetes dropped: 59
+Number of false positive exoplanetes dropped: 48
+Number of candidate exoplanetes dropped: 23
+Dropping Rate: 13.68%
+
+Total number of exoplanets: 820
+Number of features: 36
+Number of confirmed exoplanets: 456
+Number of false positive exoplanetes: 231
+Number of candidate exoplanetes: 133
+Discovery rate of the data: 55.61%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 515 samples.
+Testing set has 172 samples.
+
+Training a GaussianNB
+Trained model in 0.0016 seconds
+Made predictions in 0.0007 seconds.
+F1 score for training set: 0.7966.
+Made predictions in 0.0004 seconds.
+F1 score for test set: 0.7356.
+
+Training a LogisticRegression
+Trained model in 0.0170 seconds
+Made predictions in 0.0003 seconds.
+F1 score for training set: 0.8025.
+Made predictions in 0.0001 seconds.
+F1 score for test set: 0.7500.
+
+Training a SVC
+Trained model in 0.0132 seconds
+Made predictions in 0.0085 seconds.
+F1 score for training set: 0.9986.
+Made predictions in 0.0029 seconds.
+F1 score for test set: 0.7786.
+Made predictions in 0.0075 seconds.
+
+Tuned model has a training F1 score of 0.8051.
+Made predictions in 0.0026 seconds.
+Tuned model has a testing F1 score of 0.7758.
+Made predictions in 0.0023 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 421, 'name': 1119.02}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 433, 'name': 989.03}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}] have been Confirmed!
+
+Exoplanets: [] are False Positive!
+
+Discovery Rate: 100.0000%
+
+
+1250 Data points
+
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 161
+Number of confirmed exoplanetes dropped: 77
+Number of false positive exoplanetes dropped: 53
+Number of candidate exoplanetes dropped: 31
+Dropping Rate: 12.88%
+
+Total number of exoplanets: 1089
+Number of features: 36
+Number of confirmed exoplanets: 593
+Number of false positive exoplanetes: 293
+Number of candidate exoplanetes: 203
+Discovery rate of the data: 54.45%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 664 samples.
+Testing set has 222 samples.
+
+Training a GaussianNB
+Trained model in 0.0016 seconds
+Made predictions in 0.0008 seconds.
+Confusion Matrix:
+[[444   2]
+ [214   4]]
+F1 score for training set: 0.8043.
+Made predictions in 0.0004 seconds.
+Confusion Matrix:
+[[146   1]
+ [ 75   0]]
+F1 score for test set: 0.7935.
+
+Training a LogisticRegression
+Trained model in 0.0112 seconds
+Made predictions in 0.0003 seconds.
+Confusion Matrix:
+[[444   2]
+ [210   8]]
+F1 score for training set: 0.8073.
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[144   3]
+ [ 73   2]]
+F1 score for test set: 0.7912.
+
+Training a SVC
+Trained model in 0.0227 seconds
+Made predictions in 0.0141 seconds.
+Confusion Matrix:
+[[446   0]
+ [  2 216]]
+F1 score for training set: 0.9978.
+Made predictions in 0.0049 seconds.
+Confusion Matrix:
+[[147   0]
+ [ 73   2]]
+F1 score for test set: 0.8011.
+Made predictions in 0.0122 seconds.
+Confusion Matrix:
+[[446   0]
+ [218   0]]
+
+Tuned model has a training F1 score of 0.8036.
+Made predictions in 0.0041 seconds.
+Confusion Matrix:
+[[147   0]
+ [ 75   0]]
+Tuned model has a testing F1 score of 0.7967.
+
+Made predictions in 0.0046 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}] are False Positive!
+
+Discovery Rate: 99.0148%
+
+
+1550 Data Points
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 202
+Number of confirmed exoplanetes dropped: 108
+Number of false positive exoplanetes dropped: 58
+Number of candidate exoplanetes dropped: 36
+Dropping Rate: 13.03%
+
+Total number of exoplanets: 1348
+Number of features: 36
+Number of confirmed exoplanets: 756
+Number of false positive exoplanetes: 314
+Number of candidate exoplanetes: 278
+Discovery rate of the data: 56.08%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 802 samples.
+Testing set has 268 samples.
+
+Training a GaussianNB
+Trained model in 0.0020 seconds
+Made predictions in 0.0008 seconds.
+Confusion Matrix:
+[[554   4]
+ [240   4]]
+F1 score for training set: 0.8195.
+Made predictions in 0.0005 seconds.
+Confusion Matrix:
+[[198   0]
+ [ 69   1]]
+F1 score for test set: 0.8516.
+
+Training a LogisticRegression
+Trained model in 0.0538 seconds
+Made predictions in 0.0303 seconds.
+Confusion Matrix:
+[[558   0]
+ [234  10]]
+F1 score for training set: 0.8267.
+Made predictions in 0.0001 seconds.
+Confusion Matrix:
+[[198   0]
+ [ 66   4]]
+F1 score for test set: 0.8571.
+
+Training a SVC
+Trained model in 0.0326 seconds
+Made predictions in 0.0203 seconds.
+Confusion Matrix:
+[[558   0]
+ [  2 242]]
+F1 score for training set: 0.9982.
+Made predictions in 0.0067 seconds.
+Confusion Matrix:
+[[197   1]
+ [ 69   1]]
+F1 score for test set: 0.8491.
+Made predictions in 0.0171 seconds.
+Confusion Matrix:
+[[558   0]
+ [244   0]]
+
+Tuned model has a training F1 score of 0.8206.
+Made predictions in 0.0056 seconds.
+Confusion Matrix:
+[[198   0]
+ [ 70   0]]
+Tuned model has a testing F1 score of 0.8498.
+
+Made predictions in 0.0073 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}] are False Positive!
+
+Discovery Rate: 99.2806%
+
+1850 Data Points
+
+xoplanets data read successfully!
+
+Number of exoplanetes dropped: 230
+Number of confirmed exoplanetes dropped: 131
+Number of false positive exoplanetes dropped: 60
+Number of candidate exoplanetes dropped: 39
+Dropping Rate: 13.53%
+
+Total number of exoplanets: 1470
+Number of features: 36
+Number of confirmed exoplanets: 838
+Number of false positive exoplanetes: 322
+Number of candidate exoplanetes: 310
+Discovery rate of the data: 57.01%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 870 samples.
+Testing set has 290 samples.
+
+Training a GaussianNB
+Trained model in 0.0019 seconds
+Made predictions in 0.0009 seconds.
+Confusion Matrix:
+[[620   3]
+ [244   3]]
+F1 score for training set: 0.8339.
+Made predictions in 0.0006 seconds.
+Confusion Matrix:
+[[214   1]
+ [ 73   2]]
+F1 score for test set: 0.8526.
+
+Training a LogisticRegression
+Trained model in 0.0181 seconds
+Made predictions in 0.0003 seconds.
+Confusion Matrix:
+[[622   1]
+ [234  13]]
+F1 score for training set: 0.8411.
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[214   1]
+ [ 72   3]]
+F1 score for test set: 0.8543.
+
+Training a SVC
+Trained model in 0.0390 seconds
+Made predictions in 0.0263 seconds.
+Confusion Matrix:
+[[623   0]
+ [  1 246]]
+F1 score for training set: 0.9992.
+Made predictions in 0.0082 seconds.
+Confusion Matrix:
+[[213   2]
+ [ 74   1]]
+F1 score for test set: 0.8486.
+Made predictions in 0.0180 seconds.
+Confusion Matrix:
+[[623   0]
+ [247   0]]
+
+Tuned model has a training F1 score of 0.8346.
+Made predictions in 0.0060 seconds.
+Confusion Matrix:
+[[215   0]
+ [ 75   0]]
+Tuned model has a testing F1 score of 0.8515.
+
+Made predictions in 0.0088 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1601, 'name': 1944.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1659, 'name': 2248.04}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}] are False Positive!
+
+Discovery Rate: 99.3548%
+
+2000 Data Points
+
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 264
+Number of confirmed exoplanetes dropped: 149
+Number of false positive exoplanetes dropped: 63
+Number of candidate exoplanetes dropped: 52
+Dropping Rate: 13.20%
+
+Total number of exoplanets: 1736
+Number of features: 36
+Number of confirmed exoplanets: 1002
+Number of false positive exoplanetes: 340
+Number of candidate exoplanetes: 394
+Discovery rate of the data: 57.72%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1006 samples.
+Testing set has 336 samples.
+
+Training a GaussianNB
+Trained model in 0.0023 seconds
+Made predictions in 0.0011 seconds.
+Confusion Matrix:
+[[741   4]
+ [256   5]]
+F1 score for training set: 0.8507.
+Made predictions in 0.0006 seconds.
+Confusion Matrix:
+[[257   0]
+ [ 78   1]]
+F1 score for test set: 0.8682.
+
+Training a LogisticRegression
+Trained model in 0.0203 seconds
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[744   1]
+ [246  15]]
+F1 score for training set: 0.8576.
+Made predictions in 0.0001 seconds.
+Confusion Matrix:
+[[256   1]
+ [ 74   5]]
+F1 score for test set: 0.8722.
+
+Training a SVC
+Trained model in 0.0516 seconds
+Made predictions in 0.0325 seconds.
+Confusion Matrix:
+[[744   1]
+ [  1 260]]
+F1 score for training set: 0.9987.
+Made predictions in 0.0110 seconds.
+Confusion Matrix:
+[[256   1]
+ [ 79   0]]
+F1 score for test set: 0.8649.
+Made predictions in 0.0223 seconds.
+Confusion Matrix:
+[[745   0]
+ [261   0]]
+
+Tuned model has a training F1 score of 0.8509.
+Made predictions in 0.0072 seconds.
+Confusion Matrix:
+[[257   0]
+ [ 79   0]]
+Tuned model has a testing F1 score of 0.8668.
+
+Made predictions in 0.0137 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1601, 'name': 1944.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1890, 'name': 2081.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1930, 'name': 2324.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}, {'index': 1659, 'name': 2248.04}, {'index': 1915, 'name': 2159.01}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}] are False Positive!
+
+Discovery Rate: 98.4772%
+
+
+2150 Data Points
+
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 281
+Number of confirmed exoplanetes dropped: 154
+Number of false positive exoplanetes dropped: 68
+Number of candidate exoplanetes dropped: 59
+Dropping Rate: 13.07%
+
+Total number of exoplanets: 1869
+Number of features: 36
+Number of confirmed exoplanets: 1064
+Number of false positive exoplanetes: 374
+Number of candidate exoplanetes: 431
+Discovery rate of the data: 56.93%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1078 samples.
+Testing set has 360 samples.
+
+Training a GaussianNB
+Trained model in 0.0022 seconds
+Made predictions in 0.0011 seconds.
+Confusion Matrix:
+[[790   4]
+ [278   6]]
+F1 score for training set: 0.8485.
+Made predictions in 0.0005 seconds.
+Confusion Matrix:
+[[270   0]
+ [ 90   0]]
+F1 score for test set: 0.8571.
+
+Training a LogisticRegression
+Trained model in 0.0193 seconds
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[791   3]
+ [274  10]]
+F1 score for training set: 0.8510.
+Made predictions in 0.0001 seconds.
+Confusion Matrix:
+[[270   0]
+ [ 85   5]]
+F1 score for test set: 0.8640.
+
+Training a SVC
+Trained model in 0.0642 seconds
+Made predictions in 0.0386 seconds.
+Confusion Matrix:
+[[793   1]
+ [  1 283]]
+F1 score for training set: 0.9987.
+Made predictions in 0.0125 seconds.
+Confusion Matrix:
+[[269   1]
+ [ 89   1]]
+F1 score for test set: 0.8567.
+Made predictions in 0.0256 seconds.
+Confusion Matrix:
+[[794   0]
+ [284   0]]
+
+Tuned model has a training F1 score of 0.8483.
+Made predictions in 0.0085 seconds.
+Confusion Matrix:
+[[270   0]
+ [ 90   0]]
+Tuned model has a testing F1 score of 0.8571.
+
+Made predictions in 0.0151 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1601, 'name': 1944.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1890, 'name': 2081.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1915, 'name': 2159.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1930, 'name': 2324.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}, {'index': 2005, 'name': 2559.01}, {'index': 2006, 'name': 2560.01}, {'index': 2008, 'name': 2637.01}, {'index': 2009, 'name': 2638.01}, {'index': 2010, 'name': 2639.01}, {'index': 2011, 'name': 2639.02}, {'index': 2012, 'name': 2640.01}, {'index': 2013, 'name': 2641.01}, {'index': 2017, 'name': 2415.01}, {'index': 2018, 'name': 2416.01}, {'index': 2019, 'name': 247.01}, {'index': 2021, 'name': 2489.01}, {'index': 2022, 'name': 2490.01}, {'index': 2034, 'name': 2417.01}, {'index': 2046, 'name': 2569.01}, {'index': 2047, 'name': 2571.01}, {'index': 2048, 'name': 2572.01}, {'index': 2054, 'name': 2421.01}, {'index': 2064, 'name': 2573.01}, {'index': 2068, 'name': 2578.01}, {'index': 2079, 'name': 2503.01}, {'index': 2080, 'name': 2504.01}, {'index': 2083, 'name': 2507.01}, {'index': 2084, 'name': 2579.01}, {'index': 2088, 'name': 2582.01}, {'index': 2100, 'name': 2508.01}, {'index': 2109, 'name': 2588.01}, {'index': 2110, 'name': 2656.01}, {'index': 2112, 'name': 2658.01}, {'index': 2116, 'name': 2435.01}, {'index': 2120, 'name': 2512.01}, {'index': 2121, 'name': 2513.01}, {'index': 2127, 'name': 2592.01}, {'index': 2128, 'name': 4.01}, {'index': 2133, 'name': 256.01}, {'index': 2135, 'name': 2666.01}, {'index': 2143, 'name': 2519.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}, {'index': 1659, 'name': 2248.04}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}] are False Positive!
+
+Discovery Rate: 98.8399%
+
+
+2450 Data points
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 327
+Number of confirmed exoplanetes dropped: 178
+Number of false positive exoplanetes dropped: 79
+Number of candidate exoplanetes dropped: 70
+Dropping Rate: 13.35%
+
+Total number of exoplanets: 2123
+Number of features: 36
+Number of confirmed exoplanets: 1174
+Number of false positive exoplanetes: 446
+Number of candidate exoplanetes: 503
+Discovery rate of the data: 55.30%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1215 samples.
+Testing set has 405 samples.
+
+Training a GaussianNB
+Trained model in 0.0023 seconds
+Made predictions in 0.0012 seconds.
+Confusion Matrix:
+[[876   7]
+ [327   5]]
+F1 score for training set: 0.8399.
+Made predictions in 0.0007 seconds.
+Confusion Matrix:
+[[291   0]
+ [113   1]]
+F1 score for test set: 0.8374.
+
+Training a LogisticRegression
+Trained model in 0.0295 seconds
+Made predictions in 0.0003 seconds.
+Confusion Matrix:
+[[881   2]
+ [312  20]]
+F1 score for training set: 0.8487.
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[290   1]
+ [108   6]]
+F1 score for test set: 0.8418.
+
+Training a SVC
+Trained model in 0.0782 seconds
+Made predictions in 0.0505 seconds.
+Confusion Matrix:
+[[883   0]
+ [  2 330]]
+F1 score for training set: 0.9989.
+Made predictions in 0.0163 seconds.
+Confusion Matrix:
+[[291   0]
+ [111   3]]
+F1 score for test set: 0.8398.
+Made predictions in 0.0332 seconds.
+Confusion Matrix:
+[[883   0]
+ [332   0]]
+
+Tuned model has a training F1 score of 0.8418.
+Made predictions in 0.0116 seconds.
+Confusion Matrix:
+[[291   0]
+ [114   0]]
+Tuned model has a testing F1 score of 0.8362.
+
+Made predictions in 0.0207 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1890, 'name': 2081.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1930, 'name': 2324.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}, {'index': 2005, 'name': 2559.01}, {'index': 2006, 'name': 2560.01}, {'index': 2008, 'name': 2637.01}, {'index': 2009, 'name': 2638.01}, {'index': 2010, 'name': 2639.01}, {'index': 2011, 'name': 2639.02}, {'index': 2012, 'name': 2640.01}, {'index': 2013, 'name': 2641.01}, {'index': 2017, 'name': 2415.01}, {'index': 2018, 'name': 2416.01}, {'index': 2019, 'name': 247.01}, {'index': 2021, 'name': 2489.01}, {'index': 2022, 'name': 2490.01}, {'index': 2034, 'name': 2417.01}, {'index': 2046, 'name': 2569.01}, {'index': 2047, 'name': 2571.01}, {'index': 2048, 'name': 2572.01}, {'index': 2054, 'name': 2421.01}, {'index': 2064, 'name': 2573.01}, {'index': 2068, 'name': 2578.01}, {'index': 2079, 'name': 2503.01}, {'index': 2080, 'name': 2504.01}, {'index': 2083, 'name': 2507.01}, {'index': 2084, 'name': 2579.01}, {'index': 2088, 'name': 2582.01}, {'index': 2100, 'name': 2508.01}, {'index': 2109, 'name': 2588.01}, {'index': 2110, 'name': 2656.01}, {'index': 2112, 'name': 2658.01}, {'index': 2116, 'name': 2435.01}, {'index': 2120, 'name': 2512.01}, {'index': 2121, 'name': 2513.01}, {'index': 2127, 'name': 2592.01}, {'index': 2128, 'name': 4.01}, {'index': 2133, 'name': 256.01}, {'index': 2135, 'name': 2666.01}, {'index': 2143, 'name': 2519.01}, {'index': 2161, 'name': 2445.01}, {'index': 2164, 'name': 2521.02}, {'index': 2165, 'name': 2522.01}, {'index': 2168, 'name': 2525.01}, {'index': 2171, 'name': 2597.03}, {'index': 2172, 'name': 2598.01}, {'index': 2176, 'name': 2377.01}, {'index': 2180, 'name': 2449.01}, {'index': 2185, 'name': 2527.01}, {'index': 2186, 'name': 2528.01}, {'index': 2192, 'name': 2603.01}, {'index': 2193, 'name': 2604.01}, {'index': 2195, 'name': 2380.01}, {'index': 2199, 'name': 2453.01}, {'index': 2206, 'name': 2531.01}, {'index': 2207, 'name': 2532.01}, {'index': 2212, 'name': 2607.01}, {'index': 2217, 'name': 2386.01}, {'index': 2225, 'name': 2534.02}, {'index': 2226, 'name': 2535.01}, {'index': 2229, 'name': 2538.01}, {'index': 2234, 'name': 2613.01}, {'index': 2250, 'name': 2542.01}, {'index': 2251, 'name': 2543.01}, {'index': 2255, 'name': 2620.01}, {'index': 2257, 'name': 2393.01}, {'index': 2262, 'name': 2467.01}, {'index': 2264, 'name': 2469.01}, {'index': 2266, 'name': 2471.01}, {'index': 2270, 'name': 2547.01}, {'index': 2271, 'name': 2548.01}, {'index': 2274, 'name': 253.01}, {'index': 2278, 'name': 2626.01}, {'index': 2279, 'name': 2400.01}, {'index': 2281, 'name': 2401.01}, {'index': 2286, 'name': 2474.01}, {'index': 2291, 'name': 2550.01}, {'index': 2292, 'name': 2551.01}, {'index': 2294, 'name': 2553.01}, {'index': 2300, 'name': 2404.01}, {'index': 2305, 'name': 2477.01}, {'index': 2308, 'name': 2481.01}, {'index': 2311, 'name': 2840.01}, {'index': 2312, 'name': 2840.02}, {'index': 2313, 'name': 2841.01}, {'index': 2318, 'name': 2919.01}, {'index': 2328, 'name': 2764.01}, {'index': 2337, 'name': 2849.01}, {'index': 2338, 'name': 2921.01}, {'index': 2340, 'name': 2923.01}, {'index': 2352, 'name': 2770.01}, {'index': 2356, 'name': 2851.01}, {'index': 2357, 'name': 2851.02}, {'index': 2359, 'name': 2853.01}, {'index': 2360, 'name': 2927.01}, {'index': 2373, 'name': 2775.01}, {'index': 2377, 'name': 2855.01}, {'index': 2384, 'name': 2933.01}, {'index': 2385, 'name': 2935.01}, {'index': 2387, 'name': 2712.01}, {'index': 2393, 'name': 2779.01}, {'index': 2399, 'name': 2859.03}, {'index': 2401, 'name': 2862.01}, {'index': 2404, 'name': 2949.01}, {'index': 2408, 'name': 2715.03}, {'index': 2411, 'name': 2716.02}, {'index': 2423, 'name': 2962.01}, {'index': 2425, 'name': 2963.02}, {'index': 2436, 'name': 2797.01}, {'index': 2442, 'name': 2942.01}, {'index': 2443, 'name': 2942.02}, {'index': 2446, 'name': 2945.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 433, 'name': 989.03}, {'index': 1601, 'name': 1944.01}, {'index': 1659, 'name': 2248.04}, {'index': 1915, 'name': 2159.01}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}] are False Positive!
+
+Discovery Rate: 98.6083%
+
+
+
+2600 Data Points
+
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 366
+Number of confirmed exoplanetes dropped: 193
+Number of false positive exoplanetes dropped: 91
+Number of candidate exoplanetes dropped: 82
+Dropping Rate: 14.08%
+
+Total number of exoplanets: 2234
+Number of features: 36
+Number of confirmed exoplanets: 1213
+Number of false positive exoplanetes: 489
+Number of candidate exoplanetes: 532
+Discovery rate of the data: 54.30%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1276 samples.
+Testing set has 426 samples.
+
+Training a GaussianNB
+Trained model in 0.0024 seconds
+Made predictions in 0.0012 seconds.
+Confusion Matrix:
+[[897   9]
+ [362   8]]
+F1 score for training set: 0.8286.
+Made predictions in 0.0006 seconds.
+Confusion Matrix:
+[[306   1]
+ [118   1]]
+F1 score for test set: 0.8372.
+
+Training a LogisticRegression
+Trained model in 0.0445 seconds
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[900   6]
+ [336  34]]
+F1 score for training set: 0.8403.
+Made predictions in 0.0001 seconds.
+Confusion Matrix:
+[[306   1]
+ [117   2]]
+F1 score for test set: 0.8384.
+
+Training a SVC
+Trained model in 0.0836 seconds
+Made predictions in 0.0548 seconds.
+Confusion Matrix:
+[[905   1]
+ [  1 369]]
+F1 score for training set: 0.9989.
+Made predictions in 0.0193 seconds.
+Confusion Matrix:
+[[307   0]
+ [118   1]]
+F1 score for test set: 0.8388.
+Made predictions in 0.0385 seconds.
+Confusion Matrix:
+[[906   0]
+ [370   0]]
+
+Tuned model has a training F1 score of 0.8304.
+Made predictions in 0.0127 seconds.
+Confusion Matrix:
+[[307   0]
+ [119   0]]
+Tuned model has a testing F1 score of 0.8377.
+
+Made predictions in 0.0222 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 433, 'name': 989.03}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1659, 'name': 2248.04}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1890, 'name': 2081.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1930, 'name': 2324.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}, {'index': 2005, 'name': 2559.01}, {'index': 2006, 'name': 2560.01}, {'index': 2008, 'name': 2637.01}, {'index': 2009, 'name': 2638.01}, {'index': 2010, 'name': 2639.01}, {'index': 2011, 'name': 2639.02}, {'index': 2012, 'name': 2640.01}, {'index': 2013, 'name': 2641.01}, {'index': 2017, 'name': 2415.01}, {'index': 2018, 'name': 2416.01}, {'index': 2019, 'name': 247.01}, {'index': 2021, 'name': 2489.01}, {'index': 2022, 'name': 2490.01}, {'index': 2034, 'name': 2417.01}, {'index': 2046, 'name': 2569.01}, {'index': 2047, 'name': 2571.01}, {'index': 2048, 'name': 2572.01}, {'index': 2054, 'name': 2421.01}, {'index': 2064, 'name': 2573.01}, {'index': 2068, 'name': 2578.01}, {'index': 2079, 'name': 2503.01}, {'index': 2080, 'name': 2504.01}, {'index': 2083, 'name': 2507.01}, {'index': 2084, 'name': 2579.01}, {'index': 2088, 'name': 2582.01}, {'index': 2100, 'name': 2508.01}, {'index': 2109, 'name': 2588.01}, {'index': 2110, 'name': 2656.01}, {'index': 2112, 'name': 2658.01}, {'index': 2116, 'name': 2435.01}, {'index': 2120, 'name': 2512.01}, {'index': 2121, 'name': 2513.01}, {'index': 2127, 'name': 2592.01}, {'index': 2128, 'name': 4.01}, {'index': 2133, 'name': 256.01}, {'index': 2135, 'name': 2666.01}, {'index': 2143, 'name': 2519.01}, {'index': 2161, 'name': 2445.01}, {'index': 2164, 'name': 2521.02}, {'index': 2165, 'name': 2522.01}, {'index': 2168, 'name': 2525.01}, {'index': 2171, 'name': 2597.03}, {'index': 2172, 'name': 2598.01}, {'index': 2176, 'name': 2377.01}, {'index': 2180, 'name': 2449.01}, {'index': 2185, 'name': 2527.01}, {'index': 2186, 'name': 2528.01}, {'index': 2192, 'name': 2603.01}, {'index': 2193, 'name': 2604.01}, {'index': 2195, 'name': 2380.01}, {'index': 2199, 'name': 2453.01}, {'index': 2206, 'name': 2531.01}, {'index': 2207, 'name': 2532.01}, {'index': 2212, 'name': 2607.01}, {'index': 2217, 'name': 2386.01}, {'index': 2225, 'name': 2534.02}, {'index': 2226, 'name': 2535.01}, {'index': 2229, 'name': 2538.01}, {'index': 2234, 'name': 2613.01}, {'index': 2250, 'name': 2542.01}, {'index': 2251, 'name': 2543.01}, {'index': 2255, 'name': 2620.01}, {'index': 2257, 'name': 2393.01}, {'index': 2262, 'name': 2467.01}, {'index': 2264, 'name': 2469.01}, {'index': 2266, 'name': 2471.01}, {'index': 2270, 'name': 2547.01}, {'index': 2271, 'name': 2548.01}, {'index': 2274, 'name': 253.01}, {'index': 2278, 'name': 2626.01}, {'index': 2279, 'name': 2400.01}, {'index': 2281, 'name': 2401.01}, {'index': 2286, 'name': 2474.01}, {'index': 2291, 'name': 2550.01}, {'index': 2292, 'name': 2551.01}, {'index': 2294, 'name': 2553.01}, {'index': 2300, 'name': 2404.01}, {'index': 2305, 'name': 2477.01}, {'index': 2308, 'name': 2481.01}, {'index': 2311, 'name': 2840.01}, {'index': 2312, 'name': 2840.02}, {'index': 2313, 'name': 2841.01}, {'index': 2318, 'name': 2919.01}, {'index': 2328, 'name': 2764.01}, {'index': 2337, 'name': 2849.01}, {'index': 2338, 'name': 2921.01}, {'index': 2340, 'name': 2923.01}, {'index': 2352, 'name': 2770.01}, {'index': 2356, 'name': 2851.01}, {'index': 2357, 'name': 2851.02}, {'index': 2359, 'name': 2853.01}, {'index': 2360, 'name': 2927.01}, {'index': 2373, 'name': 2775.01}, {'index': 2377, 'name': 2855.01}, {'index': 2384, 'name': 2933.01}, {'index': 2385, 'name': 2935.01}, {'index': 2387, 'name': 2712.01}, {'index': 2393, 'name': 2779.01}, {'index': 2399, 'name': 2859.03}, {'index': 2401, 'name': 2862.01}, {'index': 2404, 'name': 2949.01}, {'index': 2408, 'name': 2715.03}, {'index': 2411, 'name': 2716.02}, {'index': 2423, 'name': 2962.01}, {'index': 2425, 'name': 2963.02}, {'index': 2436, 'name': 2797.01}, {'index': 2442, 'name': 2942.01}, {'index': 2443, 'name': 2942.02}, {'index': 2446, 'name': 2945.01}, {'index': 2458, 'name': 2871.01}, {'index': 2459, 'name': 2871.02}, {'index': 2465, 'name': 2958.01}, {'index': 2466, 'name': 2959.01}, {'index': 2469, 'name': 2723.01}, {'index': 2471, 'name': 2725.01}, {'index': 2474, 'name': 2802.01}, {'index': 2478, 'name': 2807.01}, {'index': 2482, 'name': 2878.01}, {'index': 2487, 'name': 2967.01}, {'index': 2512, 'name': 2733.01}, {'index': 2513, 'name': 2734.01}, {'index': 2514, 'name': 2735.01}, {'index': 2518, 'name': 2815.01}, {'index': 2525, 'name': 2890.01}, {'index': 2528, 'name': 2680.01}, {'index': 2535, 'name': 2739.02}, {'index': 2540, 'name': 2821.01}, {'index': 2541, 'name': 2822.01}, {'index': 2547, 'name': 2683.01}, {'index': 2550, 'name': 2686.01}, {'index': 2562, 'name': 2897.01}, {'index': 2565, 'name': 2899.01}, {'index': 2566, 'name': 2900.01}, {'index': 2571, 'name': 2689.01}, {'index': 2588, 'name': 2691.01}, {'index': 2589, 'name': 2692.01}, {'index': 2593, 'name': 2750.01}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 1601, 'name': 1944.01}, {'index': 1915, 'name': 2159.01}, {'index': 2484, 'name': 2882.01}] are False Positive!
+
+Discovery Rate: 99.2481%
+
+
+
+
+2750 Data Points
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 427
+Number of confirmed exoplanetes dropped: 231
+Number of false positive exoplanetes dropped: 101
+Number of candidate exoplanetes dropped: 95
+Dropping Rate: 15.53%
+
+Total number of exoplanets: 2323
+Number of features: 36
+Number of confirmed exoplanets: 1245
+Number of false positive exoplanetes: 515
+Number of candidate exoplanetes: 563
+Discovery rate of the data: 53.59%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1320 samples.
+Testing set has 440 samples.
+
+Training a GaussianNB
+Trained model in 0.0026 seconds
+Made predictions in 0.0014 seconds.
+Confusion Matrix:
+[[938   9]
+ [366   7]]
+F1 score for training set: 0.8334.
+Made predictions in 0.0005 seconds.
+Confusion Matrix:
+[[297   1]
+ [141   1]]
+F1 score for test set: 0.8071.
+
+Training a LogisticRegression
+Trained model in 0.0354 seconds
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[943   4]
+ [342  31]]
+F1 score for training set: 0.8450.
+Made predictions in 0.0001 seconds.
+Confusion Matrix:
+[[296   2]
+ [136   6]]
+F1 score for test set: 0.8110.
+
+Training a SVC
+Trained model in 0.0740 seconds
+Made predictions in 0.0570 seconds.
+Confusion Matrix:
+[[947   0]
+ [  2 371]]
+F1 score for training set: 0.9989.
+Made predictions in 0.0199 seconds.
+Confusion Matrix:
+[[297   1]
+ [140   2]]
+F1 score for test set: 0.8082.
+Made predictions in 0.0393 seconds.
+Confusion Matrix:
+[[947   0]
+ [373   0]]
+
+Tuned model has a training F1 score of 0.8355.
+Made predictions in 0.0132 seconds.
+Confusion Matrix:
+[[298   0]
+ [142   0]]
+Tuned model has a testing F1 score of 0.8076.
+
+Made predictions in 0.0239 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 315, 'name': 1103.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 403, 'name': 1118.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 433, 'name': 989.03}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 842, 'name': 1455.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 958, 'name': 1230.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1092, 'name': 1627.02}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1158, 'name': 1758.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1291, 'name': 1544.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1309, 'name': 1484.01}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1530, 'name': 1861.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1544, 'name': 2009.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1586, 'name': 1803.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1659, 'name': 2248.04}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1890, 'name': 2081.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1930, 'name': 2324.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}, {'index': 2005, 'name': 2559.01}, {'index': 2006, 'name': 2560.01}, {'index': 2008, 'name': 2637.01}, {'index': 2009, 'name': 2638.01}, {'index': 2010, 'name': 2639.01}, {'index': 2011, 'name': 2639.02}, {'index': 2012, 'name': 2640.01}, {'index': 2013, 'name': 2641.01}, {'index': 2017, 'name': 2415.01}, {'index': 2018, 'name': 2416.01}, {'index': 2019, 'name': 247.01}, {'index': 2021, 'name': 2489.01}, {'index': 2022, 'name': 2490.01}, {'index': 2034, 'name': 2417.01}, {'index': 2046, 'name': 2569.01}, {'index': 2047, 'name': 2571.01}, {'index': 2048, 'name': 2572.01}, {'index': 2054, 'name': 2421.01}, {'index': 2064, 'name': 2573.01}, {'index': 2068, 'name': 2578.01}, {'index': 2079, 'name': 2503.01}, {'index': 2080, 'name': 2504.01}, {'index': 2083, 'name': 2507.01}, {'index': 2084, 'name': 2579.01}, {'index': 2088, 'name': 2582.01}, {'index': 2100, 'name': 2508.01}, {'index': 2109, 'name': 2588.01}, {'index': 2110, 'name': 2656.01}, {'index': 2112, 'name': 2658.01}, {'index': 2116, 'name': 2435.01}, {'index': 2120, 'name': 2512.01}, {'index': 2121, 'name': 2513.01}, {'index': 2127, 'name': 2592.01}, {'index': 2128, 'name': 4.01}, {'index': 2133, 'name': 256.01}, {'index': 2135, 'name': 2666.01}, {'index': 2143, 'name': 2519.01}, {'index': 2161, 'name': 2445.01}, {'index': 2164, 'name': 2521.02}, {'index': 2165, 'name': 2522.01}, {'index': 2168, 'name': 2525.01}, {'index': 2171, 'name': 2597.03}, {'index': 2172, 'name': 2598.01}, {'index': 2176, 'name': 2377.01}, {'index': 2180, 'name': 2449.01}, {'index': 2185, 'name': 2527.01}, {'index': 2186, 'name': 2528.01}, {'index': 2192, 'name': 2603.01}, {'index': 2193, 'name': 2604.01}, {'index': 2195, 'name': 2380.01}, {'index': 2199, 'name': 2453.01}, {'index': 2206, 'name': 2531.01}, {'index': 2207, 'name': 2532.01}, {'index': 2212, 'name': 2607.01}, {'index': 2217, 'name': 2386.01}, {'index': 2225, 'name': 2534.02}, {'index': 2226, 'name': 2535.01}, {'index': 2229, 'name': 2538.01}, {'index': 2234, 'name': 2613.01}, {'index': 2250, 'name': 2542.01}, {'index': 2251, 'name': 2543.01}, {'index': 2255, 'name': 2620.01}, {'index': 2257, 'name': 2393.01}, {'index': 2262, 'name': 2467.01}, {'index': 2264, 'name': 2469.01}, {'index': 2266, 'name': 2471.01}, {'index': 2270, 'name': 2547.01}, {'index': 2271, 'name': 2548.01}, {'index': 2274, 'name': 253.01}, {'index': 2278, 'name': 2626.01}, {'index': 2279, 'name': 2400.01}, {'index': 2281, 'name': 2401.01}, {'index': 2286, 'name': 2474.01}, {'index': 2291, 'name': 2550.01}, {'index': 2292, 'name': 2551.01}, {'index': 2294, 'name': 2553.01}, {'index': 2300, 'name': 2404.01}, {'index': 2305, 'name': 2477.01}, {'index': 2308, 'name': 2481.01}, {'index': 2311, 'name': 2840.01}, {'index': 2312, 'name': 2840.02}, {'index': 2313, 'name': 2841.01}, {'index': 2318, 'name': 2919.01}, {'index': 2328, 'name': 2764.01}, {'index': 2337, 'name': 2849.01}, {'index': 2338, 'name': 2921.01}, {'index': 2340, 'name': 2923.01}, {'index': 2352, 'name': 2770.01}, {'index': 2356, 'name': 2851.01}, {'index': 2357, 'name': 2851.02}, {'index': 2359, 'name': 2853.01}, {'index': 2360, 'name': 2927.01}, {'index': 2373, 'name': 2775.01}, {'index': 2377, 'name': 2855.01}, {'index': 2384, 'name': 2933.01}, {'index': 2385, 'name': 2935.01}, {'index': 2387, 'name': 2712.01}, {'index': 2393, 'name': 2779.01}, {'index': 2399, 'name': 2859.03}, {'index': 2401, 'name': 2862.01}, {'index': 2404, 'name': 2949.01}, {'index': 2408, 'name': 2715.03}, {'index': 2411, 'name': 2716.02}, {'index': 2423, 'name': 2962.01}, {'index': 2425, 'name': 2963.02}, {'index': 2436, 'name': 2797.01}, {'index': 2442, 'name': 2942.01}, {'index': 2443, 'name': 2942.02}, {'index': 2446, 'name': 2945.01}, {'index': 2458, 'name': 2871.01}, {'index': 2459, 'name': 2871.02}, {'index': 2465, 'name': 2958.01}, {'index': 2466, 'name': 2959.01}, {'index': 2469, 'name': 2723.01}, {'index': 2471, 'name': 2725.01}, {'index': 2474, 'name': 2802.01}, {'index': 2478, 'name': 2807.01}, {'index': 2482, 'name': 2878.01}, {'index': 2487, 'name': 2967.01}, {'index': 2512, 'name': 2733.01}, {'index': 2513, 'name': 2734.01}, {'index': 2514, 'name': 2735.01}, {'index': 2518, 'name': 2815.01}, {'index': 2525, 'name': 2890.01}, {'index': 2528, 'name': 2680.01}, {'index': 2535, 'name': 2739.02}, {'index': 2540, 'name': 2821.01}, {'index': 2541, 'name': 2822.01}, {'index': 2547, 'name': 2683.01}, {'index': 2550, 'name': 2686.01}, {'index': 2562, 'name': 2897.01}, {'index': 2565, 'name': 2899.01}, {'index': 2566, 'name': 2900.01}, {'index': 2571, 'name': 2689.01}, {'index': 2588, 'name': 2691.01}, {'index': 2589, 'name': 2692.01}, {'index': 2593, 'name': 2750.01}, {'index': 2601, 'name': 2835.01}, {'index': 2603, 'name': 2906.02}, {'index': 2609, 'name': 2694.02}, {'index': 2611, 'name': 2695.01}, {'index': 2612, 'name': 2696.01}, {'index': 2613, 'name': 2696.02}, {'index': 2617, 'name': 2757.01}, {'index': 2628, 'name': 2915.01}, {'index': 2632, 'name': 2700.01}, {'index': 2634, 'name': 2759.01}, {'index': 2635, 'name': 2760.01}, {'index': 2651, 'name': 3007.01}, {'index': 2655, 'name': 3086.01}, {'index': 2659, 'name': 3088.01}, {'index': 2661, 'name': 3089.01}, {'index': 2669, 'name': 367.01}, {'index': 2673, 'name': 3013.01}, {'index': 2678, 'name': 3090.01}, {'index': 2679, 'name': 3091.01}, {'index': 2695, 'name': 3019.01}, {'index': 2698, 'name': 3022.01}, {'index': 2711, 'name': 373.01}, {'index': 2717, 'name': 3022.02}, {'index': 2724, 'name': 3105.01}, {'index': 2731, 'name': 316.03}, {'index': 2738, 'name': 3027.01}, {'index': 2740, 'name': 3029.01}, {'index': 2741, 'name': 3029.02}, {'index': 2743, 'name': 3108.01}, {'index': 2746, 'name': 3111.01}, {'index': 2747, 'name': 3111.02}] have been Confirmed!
+
+Exoplanets: [{'index': 421, 'name': 1119.02}, {'index': 1601, 'name': 1944.01}, {'index': 1915, 'name': 2159.01}, {'index': 2484, 'name': 2882.01}] are False Positive!
+
+Discovery Rate: 99.2895%
+
+
+3450 Data Points
+
+Exoplanets data read successfully!
+
+Number of exoplanetes dropped: 509
+Number of confirmed exoplanetes dropped: 273
+Number of false positive exoplanetes dropped: 124
+Number of candidate exoplanetes dropped: 112
+Dropping Rate: 15.19%
+
+Total number of exoplanets: 2841
+Number of features: 36
+Number of confirmed exoplanets: 1553
+Number of false positive exoplanetes: 624
+Number of candidate exoplanetes: 664
+Discovery rate of the data: 54.66%
+
+Feature columns:['dtw_sap_flux', 'sap_flux_mean', 'sap_flux_std', 'sap_flux_min', 'sap_flux_max', 'dtw_sap_bkg', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'sap_bkg_max', 'dtw_pd_sap_flux', 'pd_sap_flux_mean', 'pd_sap_flux_std', 'pd_sap_flux_min', 'pd_sap_flux_max', 'dtw_det_sap_flux', 'det_sap_flux_mean', 'det_sap_flux_std', 'det_sap_flux_min', 'det_sap_flux_max', 'mom_centr1_mean', 'mom_centr1_std', 'mom_centr1_min', 'mom_centr1_max', 'mom_centr2_mean', 'mom_centr2_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr1_mean', 'pos_corr1_std', 'pos_corr1_min', 'pos_corr1_max', 'pos_corr2_mean', 'pos_corr2_std', 'pos_corr2_min', 'pos_corr2_max']
+Target column: koi_disposition
+
+Feature values:
+    dtw_sap_flux  sap_flux_mean  sap_flux_std  sap_flux_min  sap_flux_max  \
+0       0.000000    8956.439453    689.082764   7439.848145   9973.487305
+3  461366.579205    7312.033203    650.441956   6074.532715   8440.844727
+4  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+5  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+6  805571.917483    5432.725586    728.744751   3767.633545   6569.622070
+
+    dtw_sap_bkg  sap_bkg_mean  sap_bkg_std  sap_bkg_min  sap_bkg_max  \
+0      0.000000    695.672485   240.004196   295.572662  3549.399414
+3  50678.488696    619.733643   145.510162   396.790253  3338.490723
+4  58735.645178    708.228088   196.914490   307.176941  2793.098389
+5  58735.645178    708.228088   196.914490   307.176941  2793.098389
+6  58735.645178    708.228088   196.914490   307.176941  2793.098389
+
+       ...        mom_centr2_min  mom_centr2_max  pos_corr1_mean  \
+0      ...            845.911474      851.193520       -5.994105
+3      ...            198.220817      203.670884       -1.625046
+4      ...            647.616743      651.734485       -0.228731
+5      ...            647.616743      651.734485       -0.228731
+6      ...            647.616743      651.734485       -0.228731
+
+   pos_corr1_std  pos_corr1_min  pos_corr1_max  pos_corr2_mean  pos_corr2_std  \
+0      75.992371    -969.698547       0.081685       -5.248234      66.529160
+3      19.484322    -238.766647       0.036643       -1.403566      16.812622
+4       2.704069     -33.018982       0.085686       -4.610612      54.660858
+5       2.704069     -33.018982       0.085686       -4.610612      54.660858
+6       2.704069     -33.018982       0.085686       -4.610612      54.660858
+
+   pos_corr2_min  pos_corr2_max
+0    -852.098755       0.084927
+3    -204.504578       0.140344
+4    -652.592590       0.145400
+5    -652.592590       0.145400
+6    -652.592590       0.145400
+
+[5 rows x 36 columns]
+Training set has 1632 samples.
+Testing set has 545 samples.
+
+Training a GaussianNB
+Trained model in 0.0035 seconds
+Made predictions in 0.0018 seconds.
+Confusion Matrix:
+[[1155   13]
+ [ 458    6]]
+F1 score for training set: 0.7161.
+Made predictions in 0.0011 seconds.
+Confusion Matrix:
+[[383   2]
+ [156   4]]
+F1 score for test set: 0.7106.
+
+Training a LogisticRegression
+Trained model in 0.0478 seconds
+Made predictions in 0.0003 seconds.
+Confusion Matrix:
+[[1158   10]
+ [ 428   36]]
+F1 score for training set: 0.7301.
+Made predictions in 0.0002 seconds.
+Confusion Matrix:
+[[381   4]
+ [143  17]]
+F1 score for test set: 0.7271.
+
+Training a SVC
+Trained model in 0.1465 seconds
+Made predictions in 0.0927 seconds.
+Confusion Matrix:
+[[1168    0]
+ [   2  462]]
+F1 score for training set: 0.9983.
+Made predictions in 0.0285 seconds.
+Confusion Matrix:
+[[385   0]
+ [158   2]]
+F1 score for test set: 0.7090.
+
+Training a DecisionTreeClassifier
+Trained model in 0.0569 seconds
+Made predictions in 0.0007 seconds.
+Confusion Matrix:
+[[1168    0]
+ [   2  462]]
+F1 score for training set: 0.9983.
+Made predictions in 0.0004 seconds.
+Confusion Matrix:
+[[312  73]
+ [ 81  79]]
+F1 score for test set: 0.7939.
+Made predictions in 0.0607 seconds.
+Confusion Matrix:
+[[1168    0]
+ [ 464    0]]
+
+Tuned model has a training precision score of 0.7157.
+Made predictions in 0.0201 seconds.
+Confusion Matrix:
+[[385   0]
+ [160   0]]
+Tuned model has a testing precision score of 0.7064.
+
+Made predictions in 0.0002 seconds.
+
+Exoplanets: [{'index': 1, 'name': 753.01}, {'index': 2, 'name': 754.01}, {'index': 15, 'name': 744.01}, {'index': 28, 'name': 771.01}, {'index': 29, 'name': 772.01}, {'index': 36, 'name': 760.01}, {'index': 57, 'name': 777.01}, {'index': 61, 'name': 780.02}, {'index': 71, 'name': 799.01}, {'index': 83, 'name': 797.01}, {'index': 91, 'name': 802.01}, {'index': 93, 'name': 804.01}, {'index': 102, 'name': 810.01}, {'index': 111, 'name': 815.01}, {'index': 117, 'name': 820.01}, {'index': 122, 'name': 823.01}, {'index': 135, 'name': 833.01}, {'index': 147, 'name': 838.01}, {'index': 153, 'name': 841.03}, {'index': 165, 'name': 868.01}, {'index': 171, 'name': 856.01}, {'index': 175, 'name': 858.01}, {'index': 183, 'name': 865.01}, {'index': 194, 'name': 871.01}, {'index': 201, 'name': 875.01}, {'index': 210, 'name': 892.02}, {'index': 214, 'name': 882.01}, {'index': 215, 'name': 883.01}, {'index': 229, 'name': 901.01}, {'index': 230, 'name': 902.01}, {'index': 246, 'name': 900.01}, {'index': 252, 'name': 914.01}, {'index': 268, 'name': 928.01}, {'index': 286, 'name': 924.01}, {'index': 289, 'name': 927.01}, {'index': 303, 'name': 935.04}, {'index': 311, 'name': 145.01}, {'index': 317, 'name': 1168.01}, {'index': 319, 'name': 1170.01}, {'index': 341, 'name': 1174.01}, {'index': 343, 'name': 1175.02}, {'index': 354, 'name': 1051.01}, {'index': 361, 'name': 151.01}, {'index': 368, 'name': 978.01}, {'index': 379, 'name': 1112.01}, {'index': 405, 'name': 1193.01}, {'index': 416, 'name': 1058.01}, {'index': 421, 'name': 1119.02}, {'index': 425, 'name': 1123.01}, {'index': 429, 'name': 1201.01}, {'index': 433, 'name': 989.03}, {'index': 443, 'name': 1064.01}, {'index': 450, 'name': 1188.01}, {'index': 453, 'name': 1191.01}, {'index': 454, 'name': 1192.01}, {'index': 456, 'name': 994.01}, {'index': 460, 'name': 136.01}, {'index': 462, 'name': 1066.01}, {'index': 463, 'name': 1067.01}, {'index': 467, 'name': 1127.03}, {'index': 477, 'name': 1198.04}, {'index': 484, 'name': 141.01}, {'index': 487, 'name': 1070.03}, {'index': 498, 'name': 1206.01}, {'index': 508, 'name': 1075.01}, {'index': 536, 'name': 1145.01}, {'index': 540, 'name': 944.01}, {'index': 541, 'name': 945.01}, {'index': 542, 'name': 945.02}, {'index': 550, 'name': 1081.01}, {'index': 551, 'name': 1082.01}, {'index': 552, 'name': 1082.02}, {'index': 564, 'name': 950.01}, {'index': 575, 'name': 1085.01}, {'index': 581, 'name': 1154.01}, {'index': 597, 'name': 1089.02}, {'index': 603, 'name': 1159.01}, {'index': 613, 'name': 1029.01}, {'index': 614, 'name': 1030.01}, {'index': 619, 'name': 1095.01}, {'index': 620, 'name': 1096.01}, {'index': 633, 'name': 1032.01}, {'index': 638, 'name': 138.01}, {'index': 646, 'name': 1165.01}, {'index': 648, 'name': 1166.01}, {'index': 660, 'name': 1043.01}, {'index': 663, 'name': 1360.03}, {'index': 665, 'name': 1362.01}, {'index': 667, 'name': 1426.03}, {'index': 670, 'name': 1429.01}, {'index': 672, 'name': 1239.01}, {'index': 673, 'name': 1239.02}, {'index': 691, 'name': 1431.01}, {'index': 693, 'name': 1242.01}, {'index': 713, 'name': 1246.01}, {'index': 741, 'name': 1315.01}, {'index': 746, 'name': 1369.01}, {'index': 753, 'name': 1437.01}, {'index': 760, 'name': 1258.03}, {'index': 762, 'name': 1318.01}, {'index': 765, 'name': 1321.01}, {'index': 767, 'name': 1375.01}, {'index': 777, 'name': 1452.01}, {'index': 781, 'name': 1261.02}, {'index': 804, 'name': 1268.01}, {'index': 808, 'name': 1331.01}, {'index': 812, 'name': 1385.01}, {'index': 814, 'name': 1386.01}, {'index': 815, 'name': 1387.01}, {'index': 817, 'name': 1445.02}, {'index': 818, 'name': 1445.03}, {'index': 822, 'name': 1448.01}, {'index': 826, 'name': 1271.01}, {'index': 837, 'name': 1391.01}, {'index': 839, 'name': 1393.01}, {'index': 847, 'name': 1276.01}, {'index': 848, 'name': 1276.02}, {'index': 854, 'name': 1336.04}, {'index': 862, 'name': 1208.01}, {'index': 863, 'name': 1209.01}, {'index': 877, 'name': 1398.01}, {'index': 878, 'name': 1399.01}, {'index': 892, 'name': 1281.01}, {'index': 904, 'name': 1408.01}, {'index': 933, 'name': 1224.01}, {'index': 940, 'name': 160.01}, {'index': 952, 'name': 1225.01}, {'index': 953, 'name': 1226.01}, {'index': 954, 'name': 1227.01}, {'index': 966, 'name': 1356.01}, {'index': 967, 'name': 1357.01}, {'index': 968, 'name': 1358.01}, {'index': 971, 'name': 1420.01}, {'index': 972, 'name': 1421.01}, {'index': 977, 'name': 1232.01}, {'index': 987, 'name': 1358.02}, {'index': 988, 'name': 1358.03}, {'index': 989, 'name': 1358.04}, {'index': 990, 'name': 1359.01}, {'index': 991, 'name': 1359.02}, {'index': 1006, 'name': 1303.01}, {'index': 1008, 'name': 1602.01}, {'index': 1019, 'name': 1489.01}, {'index': 1033, 'name': 1720.01}, {'index': 1039, 'name': 1494.01}, {'index': 1042, 'name': 1496.01}, {'index': 1043, 'name': 1558.01}, {'index': 1045, 'name': 1560.01}, {'index': 1055, 'name': 1725.01}, {'index': 1061, 'name': 1498.02}, {'index': 1063, 'name': 1499.02}, {'index': 1064, 'name': 1499.03}, {'index': 1067, 'name': 1563.03}, {'index': 1072, 'name': 1619.01}, {'index': 1076, 'name': 1731.01}, {'index': 1078, 'name': 1733.01}, {'index': 1097, 'name': 1739.01}, {'index': 1099, 'name': 1747.01}, {'index': 1113, 'name': 1630.01}, {'index': 1117, 'name': 1639.02}, {'index': 1118, 'name': 1764.01}, {'index': 1121, 'name': 1773.01}, {'index': 1123, 'name': 1510.01}, {'index': 1128, 'name': 182.01}, {'index': 1131, 'name': 1573.01}, {'index': 1132, 'name': 1573.02}, {'index': 1136, 'name': 1646.01}, {'index': 1139, 'name': 1751.02}, {'index': 1142, 'name': 1754.01}, {'index': 1150, 'name': 1574.03}, {'index': 1155, 'name': 1647.03}, {'index': 1156, 'name': 1648.01}, {'index': 1157, 'name': 1649.01}, {'index': 1161, 'name': 1761.01}, {'index': 1162, 'name': 1762.01}, {'index': 1170, 'name': 1576.03}, {'index': 1176, 'name': 1654.01}, {'index': 1178, 'name': 1656.01}, {'index': 1190, 'name': 1581.01}, {'index': 1192, 'name': 1582.01}, {'index': 1196, 'name': 1659.01}, {'index': 1197, 'name': 1660.01}, {'index': 1200, 'name': 1458.01}, {'index': 1205, 'name': 1527.01}, {'index': 1213, 'name': 1587.01}, {'index': 1216, 'name': 1665.02}, {'index': 1219, 'name': 1675.01}, {'index': 1222, 'name': 1465.01}, {'index': 1223, 'name': 1466.01}, {'index': 1236, 'name': 191.02}, {'index': 1237, 'name': 1677.02}, {'index': 1239, 'name': 1681.01}, {'index': 1244, 'name': 1470.01}, {'index': 1252, 'name': 1590.01}, {'index': 1253, 'name': 185.01}, {'index': 1254, 'name': 1590.02}, {'index': 1255, 'name': 1590.03}, {'index': 1256, 'name': 1591.01}, {'index': 1258, 'name': 1685.01}, {'index': 1264, 'name': 1473.01}, {'index': 1266, 'name': 1475.01}, {'index': 1267, 'name': 1475.02}, {'index': 1268, 'name': 1475.03}, {'index': 1273, 'name': 1541.01}, {'index': 1279, 'name': 191.03}, {'index': 1281, 'name': 1693.01}, {'index': 1284, 'name': 1476.01}, {'index': 1286, 'name': 1477.01}, {'index': 1288, 'name': 1479.01}, {'index': 1292, 'name': 1545.01}, {'index': 1293, 'name': 1546.01}, {'index': 1297, 'name': 1597.01}, {'index': 1300, 'name': 1702.01}, {'index': 1301, 'name': 1704.01}, {'index': 1302, 'name': 1705.01}, {'index': 1306, 'name': 1480.02}, {'index': 1310, 'name': 1547.01}, {'index': 1312, 'name': 1549.01}, {'index': 1317, 'name': 1599.01}, {'index': 1321, 'name': 1708.01}, {'index': 1331, 'name': 1552.01}, {'index': 1350, 'name': 1829.01}, {'index': 1355, 'name': 1892.01}, {'index': 1358, 'name': 1962.01}, {'index': 1364, 'name': 2037.01}, {'index': 1365, 'name': 2037.03}, {'index': 1370, 'name': 1831.03}, {'index': 1371, 'name': 1831.04}, {'index': 1377, 'name': 1897.01}, {'index': 1379, 'name': 1968.01}, {'index': 1380, 'name': 1969.01}, {'index': 1386, 'name': 2039.01}, {'index': 1387, 'name': 2040.01}, {'index': 1397, 'name': 1901.01}, {'index': 1399, 'name': 1972.01}, {'index': 1405, 'name': 2043.01}, {'index': 1413, 'name': 1902.01}, {'index': 1416, 'name': 1906.01}, {'index': 1418, 'name': 1974.01}, {'index': 1431, 'name': 1842.01}, {'index': 1442, 'name': 1982.01}, {'index': 1444, 'name': 2060.01}, {'index': 1449, 'name': 1843.02}, {'index': 1451, 'name': 1845.02}, {'index': 1458, 'name': 215.01}, {'index': 1459, 'name': 1984.01}, {'index': 1460, 'name': 1985.01}, {'index': 1466, 'name': 2052.01}, {'index': 1485, 'name': 2056.01}, {'index': 1491, 'name': 1856.01}, {'index': 1492, 'name': 1857.01}, {'index': 1493, 'name': 1917.01}, {'index': 1497, 'name': 1922.02}, {'index': 1504, 'name': 2064.01}, {'index': 1505, 'name': 2066.01}, {'index': 1510, 'name': 1858.02}, {'index': 1513, 'name': 1860.03}, {'index': 1518, 'name': 1928.01}, {'index': 1525, 'name': 1783.01}, {'index': 1526, 'name': 1784.01}, {'index': 1527, 'name': 1786.01}, {'index': 1533, 'name': 1863.01}, {'index': 1534, 'name': 1864.01}, {'index': 1548, 'name': 1793.01}, {'index': 1557, 'name': 210.01}, {'index': 1564, 'name': 2014.01}, {'index': 1566, 'name': 1798.01}, {'index': 1567, 'name': 1799.01}, {'index': 1572, 'name': 1871.01}, {'index': 1574, 'name': 1872.01}, {'index': 1576, 'name': 1934.01}, {'index': 1597, 'name': 1940.02}, {'index': 1598, 'name': 211.01}, {'index': 1600, 'name': 1942.01}, {'index': 1601, 'name': 1944.01}, {'index': 1605, 'name': 2023.01}, {'index': 1611, 'name': 1812.01}, {'index': 1620, 'name': 1945.02}, {'index': 1621, 'name': 1946.01}, {'index': 1630, 'name': 198.01}, {'index': 1631, 'name': 1816.01}, {'index': 1637, 'name': 1884.01}, {'index': 1638, 'name': 1884.02}, {'index': 1641, 'name': 212.01}, {'index': 1658, 'name': 1889.02}, {'index': 1659, 'name': 2248.04}, {'index': 1660, 'name': 2250.01}, {'index': 1668, 'name': 2339.02}, {'index': 1669, 'name': 239.02}, {'index': 1677, 'name': 2174.01}, {'index': 1678, 'name': 2174.02}, {'index': 1679, 'name': 2174.03}, {'index': 1682, 'name': 2259.01}, {'index': 1688, 'name': 2343.01}, {'index': 1691, 'name': 2106.01}, {'index': 1701, 'name': 2261.02}, {'index': 1702, 'name': 2263.01}, {'index': 1716, 'name': 2181.01}, {'index': 1721, 'name': 2269.01}, {'index': 1726, 'name': 2351.01}, {'index': 1734, 'name': 2117.01}, {'index': 1736, 'name': 2186.01}, {'index': 1737, 'name': 2188.02}, {'index': 1738, 'name': 2189.01}, {'index': 1739, 'name': 2191.01}, {'index': 1745, 'name': 2358.01}, {'index': 1748, 'name': 2361.01}, {'index': 1751, 'name': 2120.01}, {'index': 1754, 'name': 2123.01}, {'index': 1768, 'name': 2369.02}, {'index': 1771, 'name': 2124.01}, {'index': 1772, 'name': 2125.01}, {'index': 1775, 'name': 2201.01}, {'index': 1777, 'name': 2204.01}, {'index': 1779, 'name': 2206.01}, {'index': 1785, 'name': 2353.01}, {'index': 1786, 'name': 2354.01}, {'index': 1789, 'name': 2357.01}, {'index': 1791, 'name': 2130.01}, {'index': 1793, 'name': 2132.01}, {'index': 1801, 'name': 2288.01}, {'index': 1803, 'name': 2290.01}, {'index': 1804, 'name': 2291.01}, {'index': 1805, 'name': 2363.01}, {'index': 1806, 'name': 2364.01}, {'index': 1811, 'name': 225.01}, {'index': 1817, 'name': 2215.01}, {'index': 1818, 'name': 2216.01}, {'index': 1819, 'name': 2217.01}, {'index': 1820, 'name': 2293.01}, {'index': 1821, 'name': 2294.01}, {'index': 1827, 'name': 2373.01}, {'index': 1838, 'name': 2219.01}, {'index': 1840, 'name': 2297.01}, {'index': 1842, 'name': 2299.01}, {'index': 1862, 'name': 2305.01}, {'index': 1863, 'name': 2306.01}, {'index': 1864, 'name': 2307.01}, {'index': 1865, 'name': 221.02}, {'index': 1868, 'name': 2076.01}, {'index': 1872, 'name': 2150.01}, {'index': 1876, 'name': 2224.02}, {'index': 1879, 'name': 2226.01}, {'index': 1883, 'name': 2310.01}, {'index': 1884, 'name': 2311.01}, {'index': 1885, 'name': 2311.02}, {'index': 1886, 'name': 2312.01}, {'index': 1891, 'name': 2082.01}, {'index': 1894, 'name': 2154.01}, {'index': 1895, 'name': 227.01}, {'index': 1900, 'name': 2229.01}, {'index': 1902, 'name': 2232.01}, {'index': 1906, 'name': 2315.01}, {'index': 1909, 'name': 2083.01}, {'index': 1911, 'name': 2084.01}, {'index': 1915, 'name': 2159.01}, {'index': 1918, 'name': 2160.02}, {'index': 1922, 'name': 2237.01}, {'index': 1928, 'name': 2321.01}, {'index': 1929, 'name': 2323.01}, {'index': 1934, 'name': 2091.01}, {'index': 1941, 'name': 2241.01}, {'index': 1946, 'name': 2325.01}, {'index': 1949, 'name': 2329.01}, {'index': 1952, 'name': 2093.01}, {'index': 1954, 'name': 2094.01}, {'index': 1956, 'name': 2167.02}, {'index': 1962, 'name': 2248.01}, {'index': 1963, 'name': 2248.02}, {'index': 1971, 'name': 2096.01}, {'index': 1980, 'name': 2172.01}, {'index': 1981, 'name': 2554.01}, {'index': 1982, 'name': 2554.02}, {'index': 1987, 'name': 253.02}, {'index': 1992, 'name': 2410.01}, {'index': 1994, 'name': 2410.02}, {'index': 1995, 'name': 2411.01}, {'index': 2005, 'name': 2559.01}, {'index': 2006, 'name': 2560.01}, {'index': 2008, 'name': 2637.01}, {'index': 2009, 'name': 2638.01}, {'index': 2010, 'name': 2639.01}, {'index': 2011, 'name': 2639.02}, {'index': 2013, 'name': 2641.01}, {'index': 2017, 'name': 2415.01}, {'index': 2019, 'name': 247.01}, {'index': 2021, 'name': 2489.01}, {'index': 2022, 'name': 2490.01}, {'index': 2034, 'name': 2417.01}, {'index': 2046, 'name': 2569.01}, {'index': 2047, 'name': 2571.01}, {'index': 2048, 'name': 2572.01}, {'index': 2054, 'name': 2421.01}, {'index': 2064, 'name': 2573.01}, {'index': 2068, 'name': 2578.01}, {'index': 2079, 'name': 2503.01}, {'index': 2080, 'name': 2504.01}, {'index': 2083, 'name': 2507.01}, {'index': 2084, 'name': 2579.01}, {'index': 2088, 'name': 2582.01}, {'index': 2100, 'name': 2508.01}, {'index': 2109, 'name': 2588.01}, {'index': 2110, 'name': 2656.01}, {'index': 2112, 'name': 2658.01}, {'index': 2116, 'name': 2435.01}, {'index': 2120, 'name': 2512.01}, {'index': 2121, 'name': 2513.01}, {'index': 2127, 'name': 2592.01}, {'index': 2128, 'name': 4.01}, {'index': 2133, 'name': 256.01}, {'index': 2135, 'name': 2666.01}, {'index': 2143, 'name': 2519.01}, {'index': 2161, 'name': 2445.01}, {'index': 2164, 'name': 2521.02}, {'index': 2165, 'name': 2522.01}, {'index': 2168, 'name': 2525.01}, {'index': 2171, 'name': 2597.03}, {'index': 2172, 'name': 2598.01}, {'index': 2176, 'name': 2377.01}, {'index': 2180, 'name': 2449.01}, {'index': 2185, 'name': 2527.01}, {'index': 2186, 'name': 2528.01}, {'index': 2192, 'name': 2603.01}, {'index': 2193, 'name': 2604.01}, {'index': 2195, 'name': 2380.01}, {'index': 2199, 'name': 2453.01}, {'index': 2206, 'name': 2531.01}, {'index': 2207, 'name': 2532.01}, {'index': 2212, 'name': 2607.01}, {'index': 2217, 'name': 2386.01}, {'index': 2225, 'name': 2534.02}, {'index': 2226, 'name': 2535.01}, {'index': 2229, 'name': 2538.01}, {'index': 2234, 'name': 2613.01}, {'index': 2250, 'name': 2542.01}, {'index': 2251, 'name': 2543.01}, {'index': 2255, 'name': 2620.01}, {'index': 2257, 'name': 2393.01}, {'index': 2262, 'name': 2467.01}, {'index': 2264, 'name': 2469.01}, {'index': 2266, 'name': 2471.01}, {'index': 2270, 'name': 2547.01}, {'index': 2274, 'name': 253.01}, {'index': 2278, 'name': 2626.01}, {'index': 2279, 'name': 2400.01}, {'index': 2281, 'name': 2401.01}, {'index': 2286, 'name': 2474.01}, {'index': 2291, 'name': 2550.01}, {'index': 2292, 'name': 2551.01}, {'index': 2294, 'name': 2553.01}, {'index': 2300, 'name': 2404.01}, {'index': 2305, 'name': 2477.01}, {'index': 2308, 'name': 2481.01}, {'index': 2311, 'name': 2840.01}, {'index': 2312, 'name': 2840.02}, {'index': 2313, 'name': 2841.01}, {'index': 2318, 'name': 2919.01}, {'index': 2328, 'name': 2764.01}, {'index': 2337, 'name': 2849.01}, {'index': 2338, 'name': 2921.01}, {'index': 2340, 'name': 2923.01}, {'index': 2352, 'name': 2770.01}, {'index': 2356, 'name': 2851.01}, {'index': 2357, 'name': 2851.02}, {'index': 2359, 'name': 2853.01}, {'index': 2360, 'name': 2927.01}, {'index': 2373, 'name': 2775.01}, {'index': 2377, 'name': 2855.01}, {'index': 2384, 'name': 2933.01}, {'index': 2385, 'name': 2935.01}, {'index': 2393, 'name': 2779.01}, {'index': 2399, 'name': 2859.03}, {'index': 2401, 'name': 2862.01}, {'index': 2404, 'name': 2949.01}, {'index': 2408, 'name': 2715.03}, {'index': 2411, 'name': 2716.02}, {'index': 2423, 'name': 2962.01}, {'index': 2425, 'name': 2963.02}, {'index': 2436, 'name': 2797.01}, {'index': 2442, 'name': 2942.01}, {'index': 2443, 'name': 2942.02}, {'index': 2446, 'name': 2945.01}, {'index': 2458, 'name': 2871.01}, {'index': 2459, 'name': 2871.02}, {'index': 2465, 'name': 2958.01}, {'index': 2469, 'name': 2723.01}, {'index': 2474, 'name': 2802.01}, {'index': 2478, 'name': 2807.01}, {'index': 2482, 'name': 2878.01}, {'index': 2484, 'name': 2882.01}, {'index': 2487, 'name': 2967.01}, {'index': 2512, 'name': 2733.01}, {'index': 2513, 'name': 2734.01}, {'index': 2514, 'name': 2735.01}, {'index': 2518, 'name': 2815.01}, {'index': 2525, 'name': 2890.01}, {'index': 2528, 'name': 2680.01}, {'index': 2535, 'name': 2739.02}, {'index': 2541, 'name': 2822.01}, {'index': 2547, 'name': 2683.01}, {'index': 2550, 'name': 2686.01}, {'index': 2562, 'name': 2897.01}, {'index': 2565, 'name': 2899.01}, {'index': 2566, 'name': 2900.01}, {'index': 2571, 'name': 2689.01}, {'index': 2588, 'name': 2691.01}, {'index': 2589, 'name': 2692.01}, {'index': 2593, 'name': 2750.01}, {'index': 2601, 'name': 2835.01}, {'index': 2603, 'name': 2906.02}, {'index': 2609, 'name': 2694.02}, {'index': 2611, 'name': 2695.01}, {'index': 2612, 'name': 2696.01}, {'index': 2613, 'name': 2696.02}, {'index': 2617, 'name': 2757.01}, {'index': 2628, 'name': 2915.01}, {'index': 2632, 'name': 2700.01}, {'index': 2634, 'name': 2759.01}, {'index': 2635, 'name': 2760.01}, {'index': 2651, 'name': 3007.01}, {'index': 2655, 'name': 3086.01}, {'index': 2659, 'name': 3088.01}, {'index': 2661, 'name': 3089.01}, {'index': 2669, 'name': 367.01}, {'index': 2673, 'name': 3013.01}, {'index': 2678, 'name': 3090.01}, {'index': 2679, 'name': 3091.01}, {'index': 2695, 'name': 3019.01}, {'index': 2698, 'name': 3022.01}, {'index': 2717, 'name': 3022.02}, {'index': 2724, 'name': 3105.01}, {'index': 2738, 'name': 3027.01}, {'index': 2740, 'name': 3029.01}, {'index': 2741, 'name': 3029.02}, {'index': 2743, 'name': 3108.01}, {'index': 2746, 'name': 3111.01}, {'index': 2747, 'name': 3111.02}, {'index': 2752, 'name': 6315.01}, {'index': 2761, 'name': 3031.01}, {'index': 2764, 'name': 3034.01}, {'index': 2765, 'name': 3035.01}, {'index': 2771, 'name': 48.01}, {'index': 2784, 'name': 3037.01}, {'index': 2788, 'name': 3119.01}, {'index': 2792, 'name': 3123.01}, {'index': 2794, 'name': 326.01}, {'index': 2795, 'name': 326.02}, {'index': 2803, 'name': 388.01}, {'index': 2804, 'name': 3040.01}, {'index': 2805, 'name': 3041.01}, {'index': 2806, 'name': 3042.01}, {'index': 2807, 'name': 3043.01}, {'index': 2808, 'name': 3045.01}, {'index': 2823, 'name': 396.01}, {'index': 2824, 'name': 397.01}, {'index': 2827, 'name': 3048.01}, {'index': 2829, 'name': 3050.01}, {'index': 2843, 'name': 2972.01}, {'index': 2845, 'name': 3051.01}, {'index': 2846, 'name': 3052.01}, {'index': 2847, 'name': 3052.02}, {'index': 2853, 'name': 3136.01}, {'index': 2854, 'name': 3140.01}, {'index': 2857, 'name': 51.01}, {'index': 2863, 'name': 2976.01}, {'index': 2872, 'name': 3142.01}, {'index': 2886, 'name': 2982.01}, {'index': 2888, 'name': 3061.01}, {'index': 2891, 'name': 3065.01}, {'index': 2906, 'name': 2989.01}, {'index': 2907, 'name': 3066.01}, {'index': 2910, 'name': 3068.01}, {'index': 2911, 'name': 3069.01}, {'index': 2919, 'name': 349.01}, {'index': 2920, 'name': 350.01}, {'index': 2926, 'name': 2992.01}, {'index': 2931, 'name': 3072.01}, {'index': 2932, 'name': 3073.01}, {'index': 2962, 'name': 354.02}, {'index': 2971, 'name': 3083.01}, {'index': 2972, 'name': 3083.02}, {'index': 2973, 'name': 3083.03}, {'index': 2978, 'name': 522.01}, {'index': 2985, 'name': 577.01}, {'index': 2987, 'name': 422.01}, {'index': 2989, 'name': 424.01}, {'index': 2996, 'name': 524.01}, {'index': 2997, 'name': 525.01}, {'index': 3006, 'name': 425.01}, {'index': 3007, 'name': 426.01}, {'index': 3008, 'name': 427.01}, {'index': 3021, 'name': 531.01}, {'index': 3030, 'name': 430.02}, {'index': 3041, 'name': 533.02}, {'index': 3070, 'name': 435.02}, {'index': 3071, 'name': 436.01}, {'index': 3072, 'name': 437.01}, {'index': 3090, 'name': 599.01}, {'index': 3109, 'name': 592.01}, {'index': 3128, 'name': 593.03}, {'index': 3142, 'name': 501.01}, {'index': 3152, 'name': 601.02}, {'index': 3156, 'name': 449.01}, {'index': 3168, 'name': 554.01}, {'index': 3170, 'name': 555.02}, {'index': 3183, 'name': 506.01}, {'index': 3189, 'name': 558.01}, {'index': 3199, 'name': 458.01}, {'index': 3241, 'name': 466.01}, {'index': 3255, 'name': 410.01}, {'index': 3260, 'name': 469.01}, {'index': 3277, 'name': 414.02}, {'index': 3278, 'name': 415.01}, {'index': 3281, 'name': 473.01}, {'index': 3284, 'name': 474.03}, {'index': 3297, 'name': 417.01}, {'index': 3299, 'name': 419.01}, {'index': 3307, 'name': 726.01}, {'index': 3309, 'name': 728.01}, {'index': 3317, 'name': 682.01}, {'index': 3318, 'name': 683.01}, {'index': 3319, 'name': 684.01}, {'index': 3321, 'name': 686.01}, {'index': 3328, 'name': 99.01}, {'index': 3333, 'name': 635.01}, {'index': 3339, 'name': 691.01}, {'index': 3342, 'name': 732.02}, {'index': 3343, 'name': 732.03}] have been Confirmed!
+
+Exoplanets: [{'index': 315, 'name': 1103.01}, {'index': 403, 'name': 1118.01}, {'index': 820, 'name': 1447.01}, {'index': 821, 'name': 1447.02}, {'index': 842, 'name': 1455.01}, {'index': 856, 'name': 1395.01}, {'index': 860, 'name': 1397.01}, {'index': 958, 'name': 1230.01}, {'index': 1092, 'name': 1627.02}, {'index': 1158, 'name': 1758.01}, {'index': 1291, 'name': 1544.01}, {'index': 1309, 'name': 1484.01}, {'index': 1530, 'name': 1861.01}, {'index': 1544, 'name': 2009.01}, {'index': 1586, 'name': 1803.01}, {'index': 1890, 'name': 2081.01}, {'index': 1930, 'name': 2324.01}, {'index': 2012, 'name': 2640.01}, {'index': 2018, 'name': 2416.01}, {'index': 2271, 'name': 2548.01}, {'index': 2387, 'name': 2712.01}, {'index': 2466, 'name': 2959.01}, {'index': 2471, 'name': 2725.01}, {'index': 2540, 'name': 2821.01}, {'index': 2711, 'name': 373.01}, {'index': 2731, 'name': 316.03}, {'index': 2766, 'name': 3112.01}, {'index': 2831, 'name': 3130.01}, {'index': 2832, 'name': 3130.02}, {'index': 2842, 'name': 2971.01}, {'index': 2874, 'name': 3145.01}, {'index': 2875, 'name': 3145.02}, {'index': 2943, 'name': 353.01}, {'index': 2944, 'name': 353.02}, {'index': 2977, 'name': 521.01}, {'index': 3322, 'name': 687.01}] are False Positive!
+
+Discovery Rate: 94.5783%
