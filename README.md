@@ -545,7 +545,7 @@ print "\nNumber of features after feature selection: {}".format(X_all.shape[1])
 
 
 
-![png](output_29_1.png)
+![png](images/output_29_1.png)
 
 
     ['dtw_det_sap_flux', 'det_sap_flux_std', 'det_sap_flux_mean', 'det_sap_flux_min', 'pos_corr2_max', 'pos_corr1_max', 'sap_bkg_max', 'det_sap_flux_max', 'dtw_sap_bkg', 'sap_flux_std', 'sap_bkg_mean', 'sap_bkg_std', 'sap_bkg_min', 'mom_centr1_std', 'mom_centr2_std', 'pos_corr1_mean', 'mom_centr1_min', 'pos_corr2_mean', 'mom_centr1_mean', 'pos_corr1_min', 'pos_corr1_std', 'mom_centr1_max', 'pos_corr2_std', 'pd_sap_flux_std', 'mom_centr2_min', 'mom_centr2_max', 'pos_corr2_min']
